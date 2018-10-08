@@ -23,6 +23,12 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.intro-container {
+  margin: 0 auto;
+  width: 1066px;
+  display: flex;
+  justify-content: center;
+}
 
 ul {
   margin: 0;
