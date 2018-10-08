@@ -1,0 +1,14 @@
+.contacts__phone {
+  margin-bottom: 6px;
+}
+
+.contacts__timing {
+  text-align: right;
+  text-decoration: underline;
+ }
+.contacts__link{
+  color:#fff;
+}
+.work-time{
+  color:#ec1e79;
+}

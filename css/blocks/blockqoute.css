@@ -1,0 +1,25 @@
+.blockqoute{
+  width: 100%;
+  min-height: 175px;
+  background: #27273e;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background-image: url('../../img/pattern.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 57px;
+  }
+.blockqoute__content{
+  width: 611px;
+  min-height: 77px;
+  font-family: GothamPro;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  color:#fff;
+  align-self: center;
+}
+b {
+  color:#ec1e79;
+}
