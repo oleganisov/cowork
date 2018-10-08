@@ -7,7 +7,7 @@
   height: 742px;
   background-image: url('../../img/intro.png');
   background-color: rgba(236, 30, 121, 0.15);
-  background-blend-mode: overlay, color;
+  background-blend-mode: overlay;
 }
 .intro__logo{
   margin-bottom: 29px;
