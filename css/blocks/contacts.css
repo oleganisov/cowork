@@ -2,13 +2,85 @@
   margin-bottom: 6px;
 }
 
+.contacts__link {
+  color: #fff;
+  font-weight: 700;
+  font-size: 21px;
+  font-style: normal;
+}
+
 .contacts__timing {
+  display: inline-block;
+  position: relative;
   text-align: right;
   text-decoration: underline;
- }
-.contacts__link{
-  color:#fff;
 }
-.work-time{
-  color:#ec1e79;
+
+.timing__elem {
+  position: absolute;
+  top: 100%;
+  width: 163px;
+  height: 81px;
+  padding: 9px;
+  background: #fff;
+  box-shadow: 0 0 4px 1px #cfd6e2;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: lowercase;
+  right: 0;
+  margin-top: 11px;
+  right: -9999px;
+  opacity: 0;
+  transition: opacity .6s;
+}
+
+.timing__elem::before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  height: 15px;
+  top: -15px;
+}
+
+.timing__elem::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  display: block;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+  right: 0;
+  top: -19px;
+}
+
+.timing__list {
+  padding-top: 11px;
+}
+
+.timing__item {
+  text-align: start;
+}
+
+.timing__item--colored {
+  font-weight: 700;
+  color: #ec1e79;
+}
+
+.contacts__timing-link {
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(236, 30, 121, 0.7);
+}
+
+.contacts__timing:hover .contacts__timing-link {
+  color: rgba(93, 209, 248, 0.7);
+}
+
+.contacts__timing:hover .timing__elem {
+  opacity: 1;
+  right: 0;
 }

@@ -1,5 +1,5 @@
 .partners{
-  margin-bottom: 93px;
+  margin-bottom: 50px;
 }
 .partners__title {
   margin-bottom: 52px;
@@ -8,11 +8,11 @@
 .partners__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .partners__item {
-  width: 30%;
+  align-self: baseline;
+  margin-right: 150px;
   margin-bottom: 52px;
 }
 
@@ -22,4 +22,5 @@
 
 .partners__pic:hover {
   filter: grayscale(0%);
+  cursor: pointer;
 }

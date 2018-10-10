@@ -19,6 +19,11 @@
   margin-right: 22px;
 }
 .loft-link{
-  color: #fff;
+  font-weight: 700;
   text-decoration: underline;
+  color:#fff;
+}
+
+.author{
+  font-weight: 700;
 }
