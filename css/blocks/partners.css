@@ -1,10 +1,14 @@
 .partners{
   margin-bottom: 50px;
+  border: 1px solid #ccc;
 }
 .partners__title {
   margin-bottom: 52px;
 }
-
+.partners__title--size{
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .partners__list {
   display: flex;
   flex-wrap: wrap;
