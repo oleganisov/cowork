@@ -9,6 +9,9 @@
 .menu__item{
   margin-bottom: 28px;
 }
+.menu__item--horizont{
+  display: inline-block;
+}
 
 .menu__link {
   display: inline-block;
