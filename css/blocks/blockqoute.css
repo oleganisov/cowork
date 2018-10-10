@@ -17,6 +17,10 @@
   align-self: center;
   line-height: 30px;
 }
+.blockqoute__content-resize{
+  width: 278px;
+  height: 231px;
+}
 
 .blockqoute__content b {
   color:#ec1e79;

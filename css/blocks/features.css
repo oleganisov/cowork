@@ -1,8 +1,18 @@
 .cowork {
   margin-bottom: 93px;
 }
+
 .cowork__title {
   margin-bottom: 60px;
+}
+
+.features {
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.features__top{
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .features__list {

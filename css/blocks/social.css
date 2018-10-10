@@ -1,3 +1,12 @@
+.social__title{
+  color:#fff;
+  font-weight: 700;
+  font-size: 14px;  
+}
+.social__title--black{
+  color: #000;
+}
+
 .social__elem {
   display: inline-block;
   height: 35px;
@@ -29,9 +38,4 @@
 
 .social__item:hover{
   background-color: #ec1e79;
-}
-.social__title{
-  color:#fff;
-  font-weight: 700;
-  font-size: 14px;  
 }

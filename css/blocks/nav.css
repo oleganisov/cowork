@@ -1,5 +1,5 @@
 .sidebar {
-  width: 17%;
+  width: 70%;
 }
 
 .menu {
@@ -29,13 +29,13 @@
   width: 21px;
   height: 21px;
   margin-right: 17px;
-  background: url('../../img/sprites.png') -10px -10px;
+  background: url('../../img/menu_sprites.png') -84px -86px;
 }
 
 .menu__link--main:hover::before,
 .menu__link--active.menu__link--main::before
 {
-  background-position: -47px -10px;
+  background-position: -47px -86px;
 }
 
 .menu__link--feed::before {
@@ -45,12 +45,12 @@
   width: 21px;
   height: 21px;
   margin-right: 17px;
-  background: url('../../img/sprites.png') -162px -10px;
+  background: url('../../img/menu_sprites.png') -50px -10px;
 }
 
 .menu__link--feed:hover::before,
 .menu__link--active.menu__link--feed::before {
-  background-position: -202px -10px;
+  background-position: -10px -10px;
 }
 
 .menu__link--price::before {
@@ -60,12 +60,12 @@
   width: 21px;
   height: 21px;
   margin-right: 17px;
-  background: url('../../img/sprites.png') -84px -10px;
+  background: url('../../img/menu_sprites.png') -90px -10px;
 }
 
 .menu__link--price:hover::before,
 .menu__link--active.menu__link--price::before {
-  background-position: -123px -10px;
+  background-position: -50px -48px;
 }
 
 .menu__link:hover, .menu__link--active
