@@ -9,6 +9,10 @@
 .menu__list{
   text-align: center;
 }
+.menu__list-mod{
+  text-align: start;
+  padding-top: 29px;
+}
 .menu__item {
   margin-bottom: 28px;
 }

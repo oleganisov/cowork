@@ -1,25 +1,17 @@
 .blockqoute{
-  width: 100%;
-  min-height: 175px;
   background: #27273e;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
   background-image: url('../../img/pattern.png');
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 57px;
+  margin-bottom: 19px;
+  margin-top: 34px;
+  padding: 23px 10px;
   }
 .blockqoute__content{
-  width: 611px;
-  min-height: 77px;
   color:#fff;
-  align-self: center;
+  text-align: center;
   line-height: 30px;
-}
-.blockqoute__content-resize{
-  width: 278px;
-  height: 231px;
 }
 
 .blockqoute__content b {
