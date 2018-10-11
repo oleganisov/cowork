@@ -94,7 +94,7 @@
   height: 0;
   border-radius: 50%;
   background: #ec1e79;
-  transition: all .2s;
+  transition: border .2s;
 }
 
 .form__radio-elem:checked+.form__radio-fake {
