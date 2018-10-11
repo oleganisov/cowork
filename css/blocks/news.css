@@ -1,14 +1,14 @@
 .news{
-  margin-bottom: 47px;
+  margin-bottom: 21px;
 }
 .news__title{
-  margin-bottom: 75px;
+  margin-bottom: 70px;
 }
 
 .news__item {
   display: flex;
-  padding-bottom: 24px;
-  margin-bottom: 31px;
+  padding-bottom: 19px;
+  margin-bottom: 27px;
   border-bottom: 1px solid #ccc;
 }
 .news__item:last-child {
@@ -20,8 +20,8 @@
 .news__pic {
   flex-shrink: 0;
   overflow: hidden;
-  width: 160px;
-  height: 160px;
+  width: 173px;
+  height: 173px;
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -46,12 +46,12 @@
 }
 
 .news__date {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-size: 14px;
 }
 
 .news__header {
-  margin-bottom: 20px;
+  margin-bottom: 11px;
   font-weight: 700;
 }
 

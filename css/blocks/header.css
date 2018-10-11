@@ -2,17 +2,17 @@
   width: 100%;
   min-height: 77px;
   background-color: #27273e;
-  margin-bottom: 67px;
+  margin-bottom: 15px;
 }
 
 .header__left {
   margin-top: 13px;
 }
 .header__center {
-  margin-top: 14px;
+  margin-top: 22px;
 }
 .header__right {
-  margin-top: 13px;
+  margin-top: 18px;
   text-align: right;
 }
 .banner{
