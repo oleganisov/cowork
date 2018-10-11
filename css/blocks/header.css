@@ -2,19 +2,16 @@
   width: 100%;
   min-height: 77px;
   background-color: #27273e;
-  /* overflow: hidden; */
   margin-bottom: 67px;
 }
 
 .header__left {
-  margin-left: 19px;
   margin-top: 13px;
 }
 .header__center {
   margin-top: 14px;
 }
 .header__right {
-  margin-right: 21px;
   margin-top: 13px;
   text-align: right;
 }

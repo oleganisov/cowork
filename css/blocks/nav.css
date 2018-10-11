@@ -3,13 +3,14 @@
 }
 
 .menu {
-  margin-bottom: 72px;
   margin-left: 0px;
 }
-.menu__item{
+
+.menu__item {
   margin-bottom: 28px;
 }
-.menu__item--horizont{
+
+.menu__item--horizont {
   display: inline-block;
 }
 
@@ -22,6 +23,10 @@
   font-weight: 700;
 }
 
+/* .menu__link--mod {
+  color: #fff;
+} */
+
 .menu__link--main::before {
   display: inline-block;
   content: "";
@@ -31,12 +36,23 @@
   margin-right: 17px;
   background: url('../../img/menu_sprites.png') -84px -86px;
 }
+.header__center > .menu__link .menu__link--main::before{
+  background-position: -10px -86px;
+}
+
+/* .menu__link--main-mod::before {
+  background-position: -10px -86px;
+} */
 
 .menu__link--main:hover::before,
-.menu__link--active.menu__link--main::before
-{
+.menu__link--active.menu__link--main::before {
   background-position: -47px -86px;
 }
+
+/* .menu__link--main-mod:hover::before,
+.menu__link--active-mod.menu__link--main::before {
+  background-position: -10px -86px;
+} */
 
 .menu__link--feed::before {
   display: inline-block;
@@ -48,10 +64,19 @@
   background: url('../../img/menu_sprites.png') -50px -10px;
 }
 
+/* .menu__link--feed-mod::before {
+  background-position: -10px -48px;
+} */
+
 .menu__link--feed:hover::before,
 .menu__link--active.menu__link--feed::before {
   background-position: -10px -10px;
 }
+
+/* .menu__link--feed-mod:hover::before,
+.menu__link--active-mod.menu__link--feed::before {
+  background-position: -10px -48px;
+} */
 
 .menu__link--price::before {
   display: inline-block;
@@ -63,12 +88,26 @@
   background: url('../../img/menu_sprites.png') -90px -10px;
 }
 
+/* .menu__link--price-mod::before {
+  background-position: -90px -46px;
+} */
+
 .menu__link--price:hover::before,
 .menu__link--active.menu__link--price::before {
   background-position: -50px -48px;
 }
 
-.menu__link:hover, .menu__link--active
-{
+/* .menu__link--price-mod:hover::before,
+.menu__link--active-mod.menu__link--price-mod::before {
+  background-position: -90px -46px;
+} */
+
+.menu__link:hover,
+.menu__link--active {
   color: #000;
 }
+
+/* .menu__link--mod:hover,
+.menu__link--active-mod {
+  color: #ec1e79;
+} */
