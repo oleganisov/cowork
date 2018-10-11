@@ -6,7 +6,9 @@
 .menu {
   margin-left: 0px;
 }
-
+.menu__list{
+  text-align: center;
+}
 .menu__item {
   margin-bottom: 28px;
 }
@@ -22,6 +24,7 @@
   color: #ec1e79;
   font-size: 12px;
   font-weight: 700;
+  letter-spacing: 1.2px;
 }
 .menu__link-mod{
   color: #fff;
