@@ -23,92 +23,58 @@
   font-size: 12px;
   font-weight: 700;
 }
-
-/* .menu__link--mod {
+.menu__link-mod{
   color: #fff;
-} */
-
-.menu__link--main::before {
+}
+.menu__link::before {
   display: inline-block;
   content: "";
   vertical-align: middle;
   width: 21px;
   height: 21px;
   margin-right: 17px;
-  background: url('../../img/menu_sprites.png') -84px -86px;
+  background: url('../../img/nav_sprites1.png');
 }
-.header__center > .menu__link .menu__link--main::before{
-  background-position: -10px -86px;
+.menu__link-mod::before{
+  background: url('../../img/nav_sprites2.png');
 }
 
-/* .menu__link--main-mod::before {
-  background-position: -10px -86px;
-} */
+.menu__link--main::before{
+background-position:  -90px -10px;
+}
 
 .menu__link--main:hover::before,
-.menu__link--active.menu__link--main::before {
-  background-position: -47px -86px;
-}
-
-/* .menu__link--main-mod:hover::before,
+.menu__link--active.menu__link--main::before,
 .menu__link--active-mod.menu__link--main::before {
-  background-position: -10px -86px;
-} */
+  background-position: -90px -45px;
+}
 
 .menu__link--feed::before {
-  display: inline-block;
-  content: "";
-  vertical-align: middle;
-  width: 21px;
-  height: 21px;
-  margin-right: 17px;
-  background: url('../../img/menu_sprites.png') -50px -10px;
-}
-
-/* .menu__link--feed-mod::before {
-  background-position: -10px -48px;
-} */
-
-.menu__link--feed:hover::before,
-.menu__link--active.menu__link--feed::before {
   background-position: -10px -10px;
 }
 
-/* .menu__link--feed-mod:hover::before,
+.menu__link--feed:hover::before,
+.menu__link--active.menu__link--feed::before,
 .menu__link--active-mod.menu__link--feed::before {
-  background-position: -10px -48px;
-} */
+  background-position: -50px -10px;
+}
 
 .menu__link--price::before {
-  display: inline-block;
-  content: "";
-  vertical-align: middle;
-  width: 21px;
-  height: 21px;
-  margin-right: 17px;
-  background: url('../../img/menu_sprites.png') -90px -10px;
+  background-position: -10px -48px;
 }
-
-/* .menu__link--price-mod::before {
-  background-position: -90px -46px;
-} */
 
 .menu__link--price:hover::before,
-.menu__link--active.menu__link--price::before {
-  background-position: -50px -48px;
+.menu__link--active.menu__link--price::before,
+.menu__link--active-mod.menu__link--price::before {
+  background-position: -49px -48px;
 }
-
-/* .menu__link--price-mod:hover::before,
-.menu__link--active-mod.menu__link--price-mod::before {
-  background-position: -90px -46px;
-} */
 
 .menu__link:hover,
 .menu__link--active {
   color: #000;
 }
 
-/* .menu__link--mod:hover,
+.menu__link-mod:hover,
 .menu__link--active-mod {
   color: #ec1e79;
-} */
+}
