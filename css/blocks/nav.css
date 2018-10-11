@@ -1,6 +1,6 @@
 .sidebar {
-  width: 70%;
-  margin-right: 49px;
+  min-width: 272px;
+  margin-right: 26px;
 }
 
 .menu {
