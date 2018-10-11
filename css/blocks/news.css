@@ -20,13 +20,17 @@
 .news__pic {
   flex-shrink: 0;
   overflow: hidden;
-  width: 173px;
-  height: 173px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   display: inline-block;
   position: relative;
   text-align: center;
   margin-right: 20px;
+}
+.news__pic--resize{
+  width: 173px;
+  height: 173px;
 }
 .news__pic--gray {
   filter: grayscale(100%);
