@@ -3,6 +3,9 @@
   margin-bottom: 58px;
   margin-left: 190px;
 }
+.pagination-mod {
+  margin-bottom: 49px;
+}
 
 .pagination__label {
   display: inline-block;
