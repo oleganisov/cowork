@@ -1,6 +1,6 @@
 .sidebar {
   min-width: 272px;
-  margin-right: 26px;
+  margin-right: 23px;
 }
 
 .menu {
@@ -10,11 +10,15 @@
 .menu__list{
   text-align: center;
 }
-.menu__list-mod{
+.menu__list--feeds-mod{
   text-align: start;
   padding-top: 29px;
 }
 
+.menu__list--prices-mod{
+  text-align: start;
+  padding-top: 13px;
+}
 .menu__item--horizont {
   display: inline-block;
 }

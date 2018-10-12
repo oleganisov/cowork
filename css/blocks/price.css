@@ -1,5 +1,5 @@
 .price {
-  margin-bottom: 25px;
+  margin-bottom: 69px;
 }
 
 .price__title {
@@ -13,28 +13,32 @@
 
 .price__item {
   text-align: center;
-  width: 25%;
+  width: 30%;
   flex: 1;
-  margin-right: 55px;
-  margin-bottom: 48px;
+  margin-right: 22px;
+  margin-bottom: 78px;
+}
+
+.price__item:nth-child(n+4) {
+  margin-bottom: 0;
 }
 
 .price__pic {
   overflow: hidden;
-  height: 153px;
+  height: 167px;
   position: relative;
-  margin-bottom: 26px;
+  margin-bottom: 22px;
 }
 
 .price__rate {
   font-weight: 700;
   line-height: 21px;
-  margin-bottom: 20px;
+  margin-bottom: 9px;
 }
 
 .price__text {
   line-height: 21px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .price__overlay {
