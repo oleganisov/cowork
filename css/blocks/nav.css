@@ -5,6 +5,7 @@
 
 .menu {
   margin-left: 0px;
+  margin-bottom: 14px;
 }
 .menu__list{
   text-align: center;
@@ -12,9 +13,6 @@
 .menu__list-mod{
   text-align: start;
   padding-top: 29px;
-}
-.menu__item {
-  margin-bottom: 28px;
 }
 
 .menu__item--horizont {
