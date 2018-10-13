@@ -1,30 +1,24 @@
 .intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+}
+
+.intro__animation {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  /* width: 1113px;
-  height: 742px; */
-  width: 100%;
-  background-image: url('../../img/intro.png');
-  background-color: rgba(236, 30, 121, 0.15);
-  background-repeat: no-repeat;
-  background-blend-mode: overlay;
+  animation: logo-animation 1s 1s;
+  /* cubic-bezier(.96 .01 .98 .41) */
 }
-.intro__animation{
-  animation: logo-animation 1s;
-}
-.intro__logo{
+
+.intro__logo {
   text-align: center;
   margin-bottom: 29px;
 }
 
-.intro__entry{
+.intro__entry {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +33,7 @@
   font-weight: 700;
 }
 
-.intro__entry:hover{
+.intro__entry:hover {
   background-color: #ec1e79;
-  color:#fff;
+  color: #fff;
 }
