@@ -15,10 +15,12 @@
   height: 35px;
   margin-left: 10px;
 }
-
 .social__list {
   display: flex;
   margin-top: 9px;
+  padding: 0;
+}
+.social__list--mod {
   padding-left: 54px;
 }
 
