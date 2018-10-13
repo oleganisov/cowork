@@ -1,12 +1,12 @@
-.social__title {
-  color: #fff;
+.social__title{
+  color:#fff;
   font-weight: 700;
-  font-size: 14px;
-  text-align: center;
-  padding-top: 10px;
+  font-size: 14px;  
 }
 
-.social__title--black {
+.social__title--mod {
+  text-align: center;
+  padding-top: 10px;
   color: #000;
 }
 
