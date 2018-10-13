@@ -1,26 +1,42 @@
 ul li {
   list-style: none;
 }
+
 .social__elem {
   height: 300px;
   width: 300px;
   background-color: blue;
 }
+.social__list{
+  display: flex;
+}
 
 .social__item {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background: url('../img/social_sprite.png');
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+}
+
+.social__link {
+  display: inline-block;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: url('../img/spritesheet.png');
   background-repeat: no-repeat;
 }
 
-.social__icon-fb{
-  display: inline-block;
-  background-position: -71px -6px;
-}
-.social__icon-vk{
-  display: inline-block;
+.social__link--fb {
+  width: 6px;
+  height: 13px;
   background-position: -10px -10px;
+}
+.social__link--vk {
+  width: 12px;
+  height: 7px;
+  background-position: -68px -39px;
 }
