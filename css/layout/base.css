@@ -20,6 +20,11 @@ body {
   flex-direction: column;
 }
 
+.wrapper--intro {
+  min-width: auto;
+  min-height: 100vh;
+}
+
 .container {
   margin: 0 auto;
   width: 1160px;

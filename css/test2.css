@@ -2,55 +2,25 @@ ul li {
   list-style: none;
 }
 .social__elem {
-  height: 50px;
-  width: 100px;
-  /* margin-left: 10px; */
+  height: 300px;
+  width: 300px;
   background-color: blue;
 }
 
 .social__item {
   display: inline-block;
-}
-
-.social__link{
-  display: inline-block;
-  /* opacity: 0.75; */
   border-radius: 50%;
   width: 20px;
   height: 20px;
-  background-image: url('../img/vk.png');
+  background: url('../img/social_sprite.png');
   background-repeat: no-repeat;
-  background-color: #fff;
-  background-position: center;
 }
 
-.social__link {
-  /* display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%; */
- 
+.social__icon-fb{
+  display: inline-block;
+  background-position: -71px -6px;
 }
-
-/* .social__icon--vk{
-  background-position: -41px -39px;
-}
-.social__icon--fb{
-  background-position: -77px -10px;
-}
-.social__icon--g{
+.social__icon-vk{
+  display: inline-block;
   background-position: -10px -10px;
 }
-.social__icon--tw{
-  background-position: -10px -39px;
-}
-.social__icon--m{
-  background-position: -45px -10px;
-} */
-
-/* .social__icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */

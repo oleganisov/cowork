@@ -3,10 +3,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1113px;
-  height: 742px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* width: 1113px;
+  height: 742px; */
+  width: 100%;
   background-image: url('../../img/intro.png');
   background-color: rgba(236, 30, 121, 0.15);
+  background-repeat: no-repeat;
   background-blend-mode: overlay;
 }
 .intro__animation{
