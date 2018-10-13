@@ -22,8 +22,12 @@
   text-align: start;
   padding-top: 13px;
 }
+.menu__item{
+  margin-bottom: 28px;
+}
 .menu__item--horizont {
   display: inline-block;
+  margin-bottom: 0;
 }
 
 .menu__link {
