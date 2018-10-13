@@ -1,12 +1,18 @@
 .pagination {
-  text-align: left;
-  margin-bottom: 58px;
-  margin-left: 190px;
-}
-.pagination-mod {
-  margin-bottom: 49px;
+  text-align: center;
+  margin-bottom: 55px;
 }
 
+.pagination--mod-main{
+text-align: left;
+margin-bottom: 58px;
+margin-left: 190px;
+}
+.pagination--mod-feed{
+  text-align: left;
+  margin-bottom: 49px;
+  margin-left: 190px;
+  }
 .pagination__label {
   display: inline-block;
   margin-right: 6px;
