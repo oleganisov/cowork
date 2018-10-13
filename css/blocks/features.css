@@ -6,13 +6,7 @@
   margin-bottom: 60px;
 }
 
-.features {
-  text-align: center;
-  padding: 30px 34px 31px 41px;
-  border: 1px solid #ccc;
-  margin-top: 13px;
-}
-.features__top{
+.features__top {
   font-weight: 700;
   margin-bottom: 29px;
 }
@@ -25,6 +19,13 @@
   text-align: center;
   width: 30.3%;
   margin-right: 68px;
+}
+
+.features__item-mod {
+  text-align: center;
+  padding: 30px 34px 31px 41px;
+  border: 1px solid #ccc;
+  margin-top: 13px;
 }
 
 .features__pic {
