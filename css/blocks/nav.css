@@ -1,7 +1,7 @@
 .sidebar {
   min-width: 180px;
 }
-.sidebar-mod {
+.sidebar--mod {
   min-width: 272px;
   margin-right: 23px;
 }
