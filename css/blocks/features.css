@@ -22,10 +22,11 @@
 }
 
 .features__item-mod {
-  text-align: center;
+  width: 100%;
   padding: 30px 34px 31px 41px;
   border: 1px solid #ccc;
   margin-top: 13px;
+  margin-right: 0;
 }
 
 .features__pic {
