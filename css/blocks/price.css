@@ -10,11 +10,15 @@
   display: flex;
   flex-wrap: wrap;
 }
-
 .price__item {
   text-align: center;
-  width: 30%;
+  width: 25%;
   flex: 1;
+  margin-right: 55px;
+  margin-bottom: 48px;
+}
+.price__item--mod {
+  width: 30%;
   margin-right: 22px;
   margin-bottom: 78px;
 }
@@ -25,8 +29,12 @@
 
 .price__pic {
   overflow: hidden;
-  height: 167px;
+  height: 153px;
   position: relative;
+  margin-bottom: 26px;
+}
+.price__pic--mod {
+  height: 167px;
   margin-bottom: 22px;
 }
 
@@ -60,6 +68,9 @@
 
 .price__txt {
   color: #5dd1f8;
+}
+.price__img{
+  height: 100%;
 }
 
 .price__vip {
