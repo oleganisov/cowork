@@ -28,7 +28,7 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
-  background: url('../../img/intro.png') center no-repeat;
+  background: url('../../img/intro.jpg') center no-repeat;
   background-size: 100%;
   background-color: rgba(236, 30, 121, 0.15);
   background-blend-mode: overlay;
