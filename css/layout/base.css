@@ -30,8 +30,8 @@ body {
   bottom: 0;
   background: url('../../img/intro.png') center no-repeat;
   background-size: 100%;
-  background-color: rgba(236, 30, 121, 0.15); 
-   background-blend-mode: overlay;
+  background-color: rgba(236, 30, 121, 0.15);
+  background-blend-mode: overlay;
 }
 
 .container {
@@ -45,11 +45,19 @@ ul li {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-p, h1, h2, h3, h4, h5, h6, ul, li{
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
   padding: 0;
   margin: 0;
 }

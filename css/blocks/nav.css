@@ -39,7 +39,7 @@
   font-weight: 700;
   letter-spacing: 1.2px;
 }
-.menu__link-mod{
+.menu__link--mod{
   color: #fff;
 }
 .menu__link::before {
@@ -51,7 +51,7 @@
   margin-right: 13px;
   background: url('../../img/nav_sprites1.png');
 }
-.menu__link-mod::before{
+.menu__link--mod::before{
   background: url('../../img/nav_sprites2.png');
 }
 
@@ -90,7 +90,7 @@ background-position:  -90px -10px;
   color: #000;
 }
 
-.menu__link-mod:hover,
+.menu__link--mod:hover,
 .menu__link--active-mod {
   color: #ec1e79;
 }
