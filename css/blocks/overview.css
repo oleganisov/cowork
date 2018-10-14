@@ -1,5 +1,9 @@
 .overview{
-  margin-bottom: 42px;
+  margin-bottom: 45px;
+}
+
+.overview--feed{
+  margin-bottom: 41px;
 }
 .overview__title{
   margin-bottom: 69px;
