@@ -6,7 +6,7 @@
   justify-content: center;
   border-radius: 3px;
   margin-right: 114px;
-  margin-bottom: 61px;
+  margin-bottom: 62px;
 }
 
 .form__title {
@@ -129,14 +129,15 @@
 .form__submit {
   width: 139px;
   height: 45px;
-  background: #27273e;
+  background-color: #27273e;
   color: #fff;
   border-radius: 3px;
   letter-spacing: 2.4px;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
+  transition: background-color .4s;
 }
 .form__submit:hover{
-  background: #ec1e79;
+  background-color: #ec1e79;
 }
